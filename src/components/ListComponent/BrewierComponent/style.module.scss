@@ -1,0 +1,27 @@
+@import "../../../contants/colors.module.scss";
+
+.container {
+  display: flex;
+  flex: 1;
+
+  background-color: none;
+  border: 1px solid white;
+  border-radius: 12px;
+
+  padding: 20px;
+
+  font-family: "Yellowtail";
+  font-size: 20px;
+  color: $primary_orange;
+
+  cursor: pointer;
+
+  &_street {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+
+    font-size: 12px;
+    font-family: serif;
+  }
+}

@@ -1,0 +1,14 @@
+.container {
+  &_input {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  &_map_container {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+  }
+}

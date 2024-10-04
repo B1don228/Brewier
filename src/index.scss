@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import "./contants/colors.module.scss";
+
+body {
+  background-color: #2f2f2f;
+  margin: 0;
+}
+
+.ant-input-affix-wrapper:focus-within {
+  border-color: $primary_orange !important;
+}
+.ant-input-affix-wrapper:hover {
+  border-color: $primary_orange !important;
+}

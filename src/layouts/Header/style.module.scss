@@ -1,0 +1,51 @@
+@import "../../contants/colors.module.scss";
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: $primary_orange;
+  font-family: "Yellowtail", cursive;
+
+  &_leftSide {
+    font-weight: 600;
+    font-size: 48px;
+
+    cursor: pointer;
+
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &_rightSide {
+    &_title {
+      color: white;
+      margin-right: 3px;
+    }
+  }
+
+  &_mid {
+    display: flex;
+    gap: 10px;
+
+    & span {
+      color: gray;
+
+      font-family: serif;
+      font-weight: 800;
+
+      cursor: pointer;
+
+      &.active {
+        background: $primary_orange;
+      }
+    }
+  }
+}
