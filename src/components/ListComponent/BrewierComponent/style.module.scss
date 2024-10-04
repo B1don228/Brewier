@@ -23,5 +23,9 @@
 
     font-size: 12px;
     font-family: serif;
+
+    @media (max-width: 800px) {
+      display: none;
+    }
   }
 }

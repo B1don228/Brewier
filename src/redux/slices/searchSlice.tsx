@@ -1,11 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 interface IInitialState {
-  search: string | null;
+  search: string;
 }
 
 const initialState: IInitialState = {
-  search: null,
+  search: "",
 };
 
 const searchSlice = createSlice({

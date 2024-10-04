@@ -29,6 +29,10 @@
       color: white;
       margin-right: 3px;
     }
+
+    @media (max-width: 800px) {
+      display: none;
+    }
   }
 
   &_mid {
